@@ -1,6 +1,6 @@
 # Central Asian and Transcaucasian Parkinson's disease Genetics Study Consortium (CAT-PD Consortium)
 
-## PCA and Admixture
+## CAT-PD GWAS with SAIGE, ATT and TRACTOR-MIX using local and global ancestry
 
 ### Repository structure
 
