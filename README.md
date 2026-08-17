@@ -1,6 +1,7 @@
 # Central Asian and Transcaucasian Parkinson's disease Genetics Study Consortium (CAT-PD Consortium)
 
 ## CAT-PD GWAS with SAIGE, ATT and TRACTOR-MIX using local and global ancestry
+Originally developed by LARGE-PD, Mata Lab, CCF, adapted for CAT-PD cohort: https://github.com/MataLabCCF/LARGE-PD_Phase2_Paper
 
 ### Repository structure
 
@@ -8,10 +9,27 @@
 root/
 ├── LICENSE
 ├── README.md
-├── 00_SAIGE_GWAS.ipynb
-├── 01_Gnomix_Local_Ancestry_Inference.ipynb
-├── 02_TractorMix_GWAS.ipynb
-└── 03_ATT_GWAS.ipynb
+├── ./quality_control:
+|   ├── 00_Quality_Control_GenoTools.ipynb
+|   ├── 01_Quality_Control_GWASQC.ipynb
+|   └── 02_After_imputation.ipynb
+├── ./admixture_pca:
+|   ├── 00_PCA.ipynb
+|   ├── 01_Admixture.ipynb
+|   └── 02_Plotting_with_xadmix.ipynb
+├── ./calling:
+|   ├── GenomeStudio_Caller.ipynb
+|   └── NeuroBooster_IDAT_Calling.ipynb
+├── ./gwas_local_global:
+|   ├── 01_SAIGE_GWAS.ipynb
+|   ├── 02_TractorMix_GWAS.ipynb
+|   └── 03_ATT_GWAS.ipynb
+├── ./gwas_stratified:
+|   └── GWAS_logistic_regression.ipynb
+├── ./local_ancestry:
+|   └── 01_Gnomix_Local_Ancestry_Inference.ipynb
+└── ./prs:
+    └── PRS.ipynb
 ```
 
 ### Details
