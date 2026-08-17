@@ -29,6 +29,8 @@ root/
 |   └── Meta_GWAMA_METAL_MRMEGA.ipynb
 ├── ./local_ancestry:
 |   └── 01_Gnomix_Local_Ancestry_Inference.ipynb
+├── ./postgwas:
+|   └── coloc.ipynb
 └── ./prs:
     └── PRS.ipynb
 ```
