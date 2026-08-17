@@ -25,7 +25,8 @@ root/
 |   ├── 02_TractorMix_GWAS.ipynb
 |   └── 03_ATT_GWAS.ipynb
 ├── ./gwas_stratified:
-|   └── GWAS_logistic_regression.ipynb
+|   ├── GWAS_logistic_regression.ipynb
+|   └── Meta_GWAMA_METAL_MRMEGA.ipynb
 ├── ./local_ancestry:
 |   └── 01_Gnomix_Local_Ancestry_Inference.ipynb
 └── ./prs:
